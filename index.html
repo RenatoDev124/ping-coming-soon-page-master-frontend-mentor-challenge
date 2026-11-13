@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="body">
+    <header class="section">
+        <img src="images/logo.svg" alt="Logo" class="logo">
+    </header>
+    <main>
+        <section class="section principal">
+            <h2 class="title principal__title">We are launching <span class="title">soon!</span></h2>
+            <p class="text principal__text">Subscribe and get notified</p>
+            <form method="post" id="formContact" novalidate>
+                <div class="principal__formulario">
+                    <input type="email" id="txtEmail" name="txtEmail" class="formulario__input input" placeholder="Your email address..." required>
+                        <button type="submit" class="formulario__action button">Notify Me</button>
+                </div>
+                <span id="errorMessage" class="error-message"></span>
+            </form>
+        </section>
+        <section class="section illustration">
+            <img src="images/illustration-dashboard.png" alt="Illustration" class="illustration__img">
+        </section>
+    </main>
+
+    <footer class="section footer">
+        <div class="social__networks">
+            <a href="#" class="social__network"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social__network"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social__network"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="text-muted">&copy; Copyright Ping. All rights reserved.</p>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+            Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
